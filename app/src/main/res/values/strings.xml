@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WinMobile</string>
+    <string name="app_description">Run Windows on Your Mobile Device</string>
+
+    <!-- Main UI -->
+    <string name="title_home">WinMobile</string>
+    <string name="title_containers">Containers</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_performance">Performance</string>
+
+    <!-- Buttons -->
+    <string name="btn_create_container">Create Container</string>
+    <string name="btn_launch">Launch</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_install">Install</string>
+    <string name="btn_optimize">Optimize</string>
+
+    <!-- Messages -->
+    <string name="msg_loading">Loading...</string>
+    <string name="msg_initializing">Initializing emulation engine...</string>
+    <string name="msg_downloading">Downloading components...</string>
+    <string name="msg_no_containers">No containers yet. Create one to get started!</string>
+    <string name="msg_container_created">Container created successfully</string>
+    <string name="msg_container_deleted">Container deleted</string>
+    <string name="msg_error_generic">An error occurred</string>
+
+    <!-- Performance -->
+    <string name="perf_fps">FPS</string>
+    <string name="perf_cpu">CPU</string>
+    <string name="perf_gpu">GPU</string>
+    <string name="perf_memory">Memory</string>
+    <string name="perf_temperature">Temperature</string>
+
+    <!-- Presets -->
+    <string name="preset_balanced">Balanced</string>
+    <string name="preset_performance">Performance</string>
+    <string name="preset_compatibility">Compatibility</string>
+
+    <!-- Settings -->
+    <string name="setting_resolution">Resolution</string>
+    <string name="setting_fps_cap">FPS Cap</string>
+    <string name="setting_graphics_driver">Graphics Driver</string>
+    <string name="setting_audio">Audio</string>
+    <string name="setting_storage_location">Storage Location</string>
+
+</resources>
