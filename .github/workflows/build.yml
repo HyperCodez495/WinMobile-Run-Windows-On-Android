@@ -29,6 +29,9 @@ jobs:
     - name: Validate Gradle wrapper
       uses: gradle/wrapper-validation-action@v1
 
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
+
     - name: Build debug APK
       run: ./gradlew assembleDebug --stacktrace
 
@@ -75,6 +78,9 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: gradle
+
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
 
     - name: Build release APK
       run: ./gradlew assembleRelease --stacktrace
@@ -145,6 +151,9 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: gradle
+
+    - name: Make gradlew executable
+      run: chmod +x ./gradlew
 
     - name: Run lint
       run: ./gradlew lint --stacktrace
